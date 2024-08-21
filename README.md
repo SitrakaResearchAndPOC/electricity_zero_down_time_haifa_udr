@@ -1,5 +1,5 @@
 # electricity_zero_down_time_part1 : Stabilizer in critic environnement
-Inspired of this project [project_udr](https://tahmidmc.blogspot.com/2014/02/automatic-voltage-stabilizer-ac-ac-with.html) </br> or [local_document](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_part1/blob/main/ORIGINAL_INSPIRATION.rar) with this all links : </br>
+Inspired of this project [project_udr](https://tahmidmc.blogspot.com/2014/02/automatic-voltage-stabilizer-ac-ac-with.html) or [local_document](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_part1/blob/main/ORIGINAL_INSPIRATION.rar) with this all links : </br>
 [link1](http://www.youtube.com/watch?v=C84hwaacdfo) </br>
 [link2](http://www.youtube.com/watch?v=Ds7M1bBSyEU) </br>
 [link3](http://tahmidmc.blogspot.com/2014/02/automatic-voltage-stabilizer-ac-ac-with.html) </br>
