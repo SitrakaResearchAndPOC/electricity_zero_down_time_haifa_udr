@@ -1,6 +1,6 @@
 # electricity_zero_down_time_part1 : Stabilizer in critic environnement
 Inspired of this project [project_udr](https://tahmidmc.blogspot.com/2014/02/automatic-voltage-stabilizer-ac-ac-with.html) </br>
-I will make reverse engineering to know the circuit of relay, of the input and of the visual and i will use arduino nano to patch the problem of udr </br>
+I will make reverse engineering to know the circuit of relay, of the input and of the visual </br> and i will use arduino nano to patch the problem of udr </br>
 
 # Choose of hardware
 * I use haifa udr due to this voltage critic 80V and 260V, the main problem of haifa is the problem due to precision ! </br>
