@@ -25,13 +25,13 @@ no big delay for having more precision, so a quick trigger < 5ms gives me a nois
 After launching and seeing the port com the value printed and measure the output value . </br> Make a ration and use this as Kc. </br> For mine : value printed is 128 and value measured is 148. </br> So,The ration is near 0.846.
 5.	Test the tapping using ohm_meter between inputtap and outputtap (no resistance if it’s directly connected, with resistance if not) </br>
 All test code is : </br>
-•	stabilizer_tapping_test_94_231
-•	stabilizer_tapping_test_109_215
-•	stabilizer_tapping_test_109_231
-•	stabilizer_tapping_test_127_215
-•	stabilizer_tapping_test_148_215
-•	stabilizer_tapping_test_171_215
-•	stabilizer_tapping_test_199_215
-•	stabilizer_tapping_test_231_231
-•	stabilizer_tapping_test_231_215
+*	stabilizer_tapping_test_94_231
+*	stabilizer_tapping_test_109_215
+*	stabilizer_tapping_test_109_231
+*	stabilizer_tapping_test_127_215
+*	stabilizer_tapping_test_148_215
+*	stabilizer_tapping_test_171_215
+*	stabilizer_tapping_test_199_215
+*	stabilizer_tapping_test_231_231
+*	stabilizer_tapping_test_231_215
 6.	Test the code stabilizer_haifav3 </br>
