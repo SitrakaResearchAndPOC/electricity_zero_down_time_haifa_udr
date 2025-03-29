@@ -1,3 +1,6 @@
+# Practical
+* [pratical2_withrelay_patched](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_part1/blob/main/patched_with_relay.md)
+* [pratical1_norelay_patched](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_part1/blob/main/patched_no_relay.md)
 # electricity_zero_down_time_part1 : Stabilizer in critic environnement
 Inspired of this project [project_udr](https://tahmidmc.blogspot.com/2014/02/automatic-voltage-stabilizer-ac-ac-with.html) or [local_document](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_part1/blob/main/ORIGINAL_INSPIRATION.rar) with this all links : </br>
 [link1](http://www.youtube.com/watch?v=C84hwaacdfo) </br>
