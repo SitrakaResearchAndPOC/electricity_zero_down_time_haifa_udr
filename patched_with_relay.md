@@ -9,8 +9,11 @@
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_1.jpg"  alt="Image of documentation 1">
 
 * Curve of minimal power :
-<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_2.jpg"  alt="Image of docimumentation 2">   
-
+<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_2.jpg"  alt="Image of docimumentation 2">
+eg : for 2000va = 2000 * 0.7 W = 1400W  </br>
+At 130v, 50% of power ... so at 210v, it's support 1000va = 1000 * 0,7 w = 700W , current will be near : = 700W/130V = 5,3846A </br>
+At 80v, the power maximal power supported is : = 5,3846 * 80 V = 430 w  </br>
+ 
 # ARDUINO IC CIRCUIT CONNECTION (PCB DOWN VIEW)
 It's easy to follow the inteconnection with down view
 <table>
