@@ -47,11 +47,12 @@ It's easy to follow the inteconnection with down view
 </table>
 
 * Explanation by lookuptable
-
+[lookuptable_excel]
 * Resume lookuptable 
 
 # VI - ARDUINO + RELAY CONNECTION
 * Schematic
+<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_RELAY.jpg"  alt="Image of arduino with relay">
 
 * verify relay
 
