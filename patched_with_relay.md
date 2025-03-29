@@ -1,8 +1,8 @@
 # PATCHED WITH RELAYS : 
-# HAIFA DOCUMENTATION
+# I - HAIFA DOCUMENTATION
 [haifa_documentation](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/HAIFA_DOCUMENTATION/All_haifa_documentation.pdf)
 
-# INTERSTING KNOWLEDGE WITH HAIFA UDR
+# II - INTERSTING KNOWLEDGE WITH HAIFA UDR
 * Voltage range : [INPUT : 80V -> 260V ; OUTPUT : 220V]
 
 * Power :
@@ -14,7 +14,7 @@ eg : for 2000va = 2000 * 0.7 W = 1400W  </br>
 At 130v, 50% of power ... so at 210v, it's support 1000va = 1000 * 0,7 w = 700W , current will be near : = 700W/130V = 5,3846A </br>
 At 80v, the power maximal power supported is : = 5,3846 * 80 V = 430 w  </br>
  
-# ARDUINO IC CIRCUIT CONNECTION (PCB DOWN VIEW)
+# III - ARDUINO IC CIRCUIT CONNECTION (PCB DOWN VIEW)
 It's easy to follow the inteconnection with down view
 <table>
     <tr>
@@ -27,10 +27,10 @@ It's easy to follow the inteconnection with down view
     </tr>
 </table>
 
-# ARDUINO IC CIRCUIT CONNECTION (PCB TOP VIEW)
+# IV - ARDUINO IC CIRCUIT CONNECTION (PCB TOP VIEW)
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTECONNECTION_TOP_VIEW.jpg"  alt="Image des pins extra transformateur avec notation">
 
-# RELAY CONNECTION
+# V - RELAY CONNECTION
 * Schematic
 [relay_connetion_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION.pdf)
 <table>
@@ -50,7 +50,7 @@ It's easy to follow the inteconnection with down view
 
 * Resume lookuptable 
 
-# ARDUINO + RELAY CONNECTION
+# VI - ARDUINO + RELAY CONNECTION
 * Schematic
 
 * verify relay
