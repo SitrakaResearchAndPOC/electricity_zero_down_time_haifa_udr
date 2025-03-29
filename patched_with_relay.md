@@ -11,7 +11,7 @@ It's easy to follow the inteconnection with down view
         </td>
     </tr>
 </table>
-
+# ARDUINO IC CIRCUIT CONNECTION (PCB TOP VIEW)
 
 
 # RELAY CONNECTION
