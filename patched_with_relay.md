@@ -11,7 +11,9 @@ It's easy to follow the inteconnection with down view
         </td>
     </tr>
 </table>
+
 # ARDUINO IC CIRCUIT CONNECTION (PCB TOP VIEW)
+<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTECONNECTION_TOP_VIEW.jpg"  alt="Image des pins extra transformateur avec notation">
 
 
 # RELAY CONNECTION
