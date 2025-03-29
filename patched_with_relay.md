@@ -20,7 +20,7 @@ It's easy to follow the inteconnection with down view
 <table>
     <tr>
         <td>
-            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_1.jpg" alt="Image des pins extra transformateur">
+            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_1.JPG" alt="Image des pins extra transformateur">
         </td>
     </tr>
     <tr>
