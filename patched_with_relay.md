@@ -1,13 +1,23 @@
-# PATCHED WITH RELAYS
+# PATCHED WITH RELAYS : 
+# HAIFA DOCUMENTATION
+[haifa_documentation](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/HAIFA_DOCUMENTATION/All_haifa_documentation.pdf)
+
+# INTERSTING KNOWLEDGE WITH HAIFA UDR
+* Voltage range : [INPUT : 80V -> 260V ; OUTPUT : 220V]
+* Power :
+<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_1.jpg"  alt="Image of documentation 1">
+* Curve of minimal power :
+<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_2.jpg"  alt="Image of docimumentation 2">   
+
 # ARDUINO IC CIRCUIT CONNECTION (PCB DOWN VIEW)
 It's easy to follow the inteconnection with down view
 <table>
     <tr>
         <td>
-            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNETION_1.jpg"  alt="Image des pins extra transformateur">
+            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_1.jpg"  alt="Image of arduino connection 1">
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNETION_2.jpg"  alt="Image des pins extra transformateur avec notation">
+            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_2.jpg"  alt="Image of arduino connection 2">
         </td>
     </tr>
 </table>
