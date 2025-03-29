@@ -4,8 +4,10 @@
 
 # INTERSTING KNOWLEDGE WITH HAIFA UDR
 * Voltage range : [INPUT : 80V -> 260V ; OUTPUT : 220V]
+
 * Power :
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_1.jpg"  alt="Image of documentation 1">
+
 * Curve of minimal power :
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_2.jpg"  alt="Image of docimumentation 2">   
 
