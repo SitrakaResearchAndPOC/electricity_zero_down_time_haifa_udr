@@ -31,8 +31,13 @@ It's easy to follow the inteconnection with down view
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTECONNECTION_TOP_VIEW.jpg"  alt="Image des pins extra transformateur avec notation">
 
 # V - RELAY CONNECTION
-* Schematic
+* Schematic :
+When command relay is HIGH -> MIDLE AND DOWN IS CONNECTED ON THE RELAY </br>
+When command relay is LOW  -> MIDLE AND HIGH IS CONNECTED ON THE RELAY </br>
+
 [relay_connetion_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION.pdf)
+
+
 <table>
     <tr>
         <td>
