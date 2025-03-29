@@ -1,5 +1,21 @@
 # PATCHED WITH RELAYS
-# PATCHED WITH RELAYS
+# ARDUINO IC CIRCUIT CONNECTION (PCB DOWN VIEW)
+It's easy to follow the inteconnection with down view
+<table>
+    <tr>
+        <td>
+            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNETION_1.jpg"  alt="Image des pins extra transformateur">
+        </td>
+        <td>
+            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNETION_2.jpg"  alt="Image des pins extra transformateur avec notation">
+        </td>
+    </tr>
+</table>
+
+
+
+# RELAY CONNECTION
+
 # PIN TO KNOW
 
 * PIN OF EXTRA TRANSFORMATOR
