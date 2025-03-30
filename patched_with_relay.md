@@ -55,14 +55,15 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 
 [schematic_with_all_notation](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.pdf)
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.jpg"  alt="Image of relay interconnection with all name">
-
+FOR HARDWARE (NOTATION BEGINS BY ONE) </br>
+FOR SOFTWARE AKA CODING (NOTATION BEGINS BY ZERO) </br> </br>
 Equivalence between name's relay : R begin by zero and K begin by one  </br>
 R0 is K1 </br>
 R1 is K2 </br>
 R2 is K3 </br>
-...
-
-
+...</br>
+</br>
+</br>
 Equivalence between name's command relay : CR begin by zero and IN begin by one </br>
 CR0 is IN1 </br>
 CR1 is IN2 </br>
@@ -110,6 +111,8 @@ Do calibration for involtage and outvoltage </br>
 * LCD OLED
 
 # IV - INTEGRATION CODE
+[schematic_global_coding](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/GLOBAL_CODING.pdf)
+<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/GLOBAL_CODING.jpg"  alt="Image of global coding">
 
 
 # X - PIN TO KNOW
