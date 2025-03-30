@@ -70,11 +70,11 @@ CR2 is IN3 </br>
 ...
 
 * Explanation by lookuptable
+
 Full complete guide of lookuptable in excel </br>
 [lookuptable_excel](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.xlsx)
-
-* Resume lookuptable
-
+ </br>
+Resume lookuptable  </br>
 [lookuptable_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.pdf)
 
 
