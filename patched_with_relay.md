@@ -52,6 +52,7 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 </table>
 
 * Relay interconnection with all name
+
 [schematic_with_all_notation](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.pdf)
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.jpg"  alt="Image of relay interconnection with all name">
 
@@ -60,6 +61,8 @@ R0 is K1 </br>
 R1 is K2 </br>
 R2 is K3 </br>
 ...
+
+
 Equivalence between name's command relay : CR begin by zero and IN begin by one </br>
 CR0 is IN1 </br>
 CR1 is IN2 </br>
@@ -94,15 +97,8 @@ The last coulumn is the approximate VOLTAGE_TRANSITION_STATE (for each), it will
 * Schematic
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_RELAY.jpg"  alt="Image of arduino with relay">
 
-* verify all relay
+* TESTING UNIT FOR ALL STATE
 
-* verify in one by one the relay
- choose one by one the relay to be tested
-
-
-
-* verify relay state
- 
 
 # VII - ARDUINO + SENSOR VOLTAGE (ZMPT101B)
 Calibrate the sensor when the voltage is near of 220V </br>
