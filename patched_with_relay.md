@@ -52,24 +52,53 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 </table>
 
 * Explanation by lookuptable
-
+Full complete guide of lookuptable in excel </br>
 [lookuptable_excel](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.xlsx)
-[lookuptable_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.pdf)
 
 * Resume lookuptable 
+[lookuptable_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.pdf)
+</br>
 <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.jpg"  alt="Image of lookuptable resumme">
+R1 : is to connect or not with voltage in of relay or 215 in of relay </br>
+R2 : is to connect or not with voltage out of relay </br>
+R3 - R7 : could be high for activation or low for no activation </br>
+IN_TAP : is interconnection with the intap of transformers  </br>
+OUT_TAP : is interconnection with the intap of transformers  </br>
+DIFF : is the differenciation between OUT_TAP and IN_TAP  </br>
+DEV : is the differenciation between 220V minus DIFF  </br>
+Tensions : is approximation interval for having near 220V at the output  </br>
+version8 : state choosen by the version 8 program </br>
+The last coulumn is the approximate VOLTAGE_TRANSITION_STATE (for each), it will be experimented at the INTEGRATION TEST OF CODE </br>
+
+
 
 # VI - ARDUINO + RELAY CONNECTION
 * Schematic
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_RELAY.jpg"  alt="Image of arduino with relay">
 
-* verify relay
+* verify all relay
+
+* verify in one by one the relay
+ choose one by one the relay to be tested
+
+
 
 * verify relay state
  
 
-# PIN TO KNOW
+# VII - ARDUINO + SENSOR VOLTAGE (ZMPT101B)
+Calibrate the sensor when the voltage is near of 220V </br>
+Do calibration for involtage and outvoltage </br>
 
+# VIII - ARDUINO + LCD OLED OR LCDx1602
+* LCDx1602
+
+* LCD OLED
+
+# IV - INTEGRATION CODE
+
+
+# X - PIN TO KNOW
 * PIN OF EXTRA TRANSFORMATOR
 <table>
     <tr>
