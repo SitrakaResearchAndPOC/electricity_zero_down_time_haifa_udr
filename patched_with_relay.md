@@ -52,8 +52,12 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 </table>
 
 * Explanation by lookuptable
-[lookuptable_excel]
+
+[lookuptable_excel](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.xlsx)
+[lookuptable_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.pdf)
+
 * Resume lookuptable 
+<img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.jpg"  alt="Image of lookuptable resumme">
 
 # VI - ARDUINO + RELAY CONNECTION
 * Schematic
@@ -61,6 +65,7 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 
 * verify relay
 
+* verify relay state
  
 
 # PIN TO KNOW
