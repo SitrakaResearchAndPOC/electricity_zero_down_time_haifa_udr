@@ -2130,7 +2130,9 @@ WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE </br>
   </tr>
 </table>
 </br>
-
+        
+[stabilizer_tapping_state_code_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/STABILIZER_TAPPING_STATE.zip)</br>
+</br>
 
 # VII - ARDUINO + SENSOR VOLTAGE (ZMPT101B)
 Calibrate the sensor when the voltage is near of 220V </br>
