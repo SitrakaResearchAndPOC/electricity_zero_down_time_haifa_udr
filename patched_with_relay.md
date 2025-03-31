@@ -97,7 +97,15 @@ The last coulumn is the approximate VOLTAGE_TRANSITION_STATE (for each), it will
 
 # VI - ARDUINO + RELAY CONNECTION
 ## Schematic
-<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_RELAY.jpg"  alt="Image of arduino with relay">
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Image of arduino with relay </summary>
+         <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_RELAY.jpg"  alt="Image of arduino with relay">
+    </td>
+  </tr>
+</table>
 
 ## TESTING UNIT FOR ALL STATE
 
