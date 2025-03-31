@@ -404,8 +404,7 @@ FOR SOFTWARE AKA CODING (NOTATION BEGINS BY ZERO) : Relady noted by RX and comma
          <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/stabilizer_tapping_state_security.jpg"  alt="Image of result">
   </tr>
 </table>
-</br>
-WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE
+WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE </br>
 </br>
 
 * stabilizer_tapping_state1_94_231
@@ -565,13 +564,34 @@ WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE
     <td>
       <details>
         <summary>🖼️ Click for having image result of stabilizer_tapping_state1_94_231.ino </summary>
-         <img src=""  alt="Image of result">
+         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/stabilizer_tapping_state_security.jpg"  alt="Image of result">
   </tr>
 </table>
 </br>
 
+* stabilizer_tapping_state2_94_215
 
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+        <details>
+        <summary>📑 Click for having code : XXX  </summary>
+        <p> Copy this code on arduino, save as the name is  XXX and upload + run 
+        
+        
+  </tr>
+</table>  
 
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image result of XXX </summary>
+         <img src=""  alt="Image of result">
+  </tr>
+</table>
+</br>
+        
 # VII - ARDUINO + SENSOR VOLTAGE (ZMPT101B)
 Calibrate the sensor when the voltage is near of 220V </br>
 Do calibration for involtage and outvoltage </br>
