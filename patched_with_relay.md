@@ -40,6 +40,10 @@ At 80v, the power maximal power supported is : = 5,3846 * 80 V = 430 w  </br>
  
 # III - ARDUINO IC CIRCUIT CONNECTION (PCB DOWN VIEW)
 It's easy to follow the inteconnection with down view
+
+
+
+
 <table>
     <tr>
         <td>
@@ -61,6 +65,26 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 
 [relay_connetion_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION.pdf)
 
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of arduino with relay </summary>
+<table>
+    <tr>
+        <td>
+            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_1.JPG" alt="Image des pins extra transformateur">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_2.jpg" alt="Image des pins extra transformateur avec notation">
+        </td>
+    </tr>
+</table>
+        
+  </tr>
+</table>
 
 <table>
     <tr>
@@ -78,7 +102,9 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 ## Relay interconnection with all name
 
 [schematic_with_all_notation](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.pdf)
+
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.jpg"  alt="Image of relay interconnection with all name">
+
 FOR HARDWARE (NOTATION BEGINS BY ONE) </br>
 FOR SOFTWARE AKA CODING (NOTATION BEGINS BY ZERO) </br> </br>
 Equivalence between name's relay : R begin by zero and K begin by one  </br>
@@ -86,8 +112,6 @@ R0 is K1 </br>
 R1 is K2 </br>
 R2 is K3 </br>
 ...</br>
-</br>
-</br>
 Equivalence between name's command relay : CR begin by zero and IN begin by one </br>
 CR0 is IN1 </br>
 CR1 is IN2 </br>
