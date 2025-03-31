@@ -129,7 +129,7 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
   <tr>
     <td>
       <details>
-        <summary>🧮 click for having LookUpTable </summary>
+        <summary>🧮 click for having interconnection with all name </summary>
        <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.jpg"  alt="Image of relay interconnection with all name">       
 <p> 
     FOR HARDWARE (NOTATION BEGINS BY ONE) </br>
