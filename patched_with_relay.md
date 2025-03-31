@@ -413,7 +413,7 @@ WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE </br>
     <td>
         <details>
         <summary>📑 Click for having code : stabilizer_tapping_state1_94_231.ino  </summary>
-        <p> Copy this code on arduino, save as the name is  stabilizer_tapping_state1_94_231.ino and upload + run 
+        <p> Copy this code on arduino, save as the name is  stabilizer_tapping_state1_94_231.ino and upload + run </p> 
         
     /*
     Programmed by Sitraka : In the hack we trust
@@ -576,7 +576,7 @@ WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE </br>
     <td>
         <details>
         <summary>📑 Click for having code : stabilizer_tapping_state2_94_215.ino  </summary>
-        <p> Copy this code on arduino, save as the name is  stabilizer_tapping_state2_94_215.ino and upload + run 
+        <p> Copy this code on arduino, save as the name is  stabilizer_tapping_state2_94_215.ino and upload + run </p>
     /*
     Programmed by Sitraka : In the hack we trust
     */
@@ -729,7 +729,7 @@ WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE </br>
     <td>
         <details>
         <summary>📑 Click for having code : stabilizer_tapping_state3_109_215.ino  </summary>
-        <p> Copy this code on arduino, save as the name is stabilizer_tapping_state3_109_215.ino and upload + run 
+        <p> Copy this code on arduino, save as the name is stabilizer_tapping_state3_109_215.ino and upload + run </p>
         
         
   </tr>
