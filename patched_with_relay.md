@@ -103,12 +103,14 @@ The last coulumn is the approximate VOLTAGE_TRANSITION_STATE (for each), it will
 
 * stabilizer_tapping_state_all_on
 Copy this code on arduino, save as the name is  stabilizer_tapping_state_all_on.ino and upload + run
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
 
 <details>
         <summary>📂 stabilizer_tapping_state_all_on.ino</summary>
         <p>Ce fichier contient le code de gestion des relais.</p>
         
-        ```
         /* haifa with 8 relay : CR7 = D2, CR5 = D3, CR6= D4, CR4= D5, CR3= D6, CR2= D7, CR1 = D8 , CR0 = D9 de 2 à 9 */
         void setup() {
           // put your setup code here, to run once:
@@ -143,9 +145,10 @@ Copy this code on arduino, save as the name is  stabilizer_tapping_state_all_on.
 
           delay(200);
         }
-        ```
 </details>
-  
+    </td>
+  </tr>
+</table>  
 
 
 
