@@ -86,15 +86,7 @@ Resume lookuptable  </br>
     <td>
       <details>
         <summary>🖼️ Image of arduino with relay </summary>
-   
-       <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.jpg"  alt="Image of lookuptable resumme">
-   </details>
-    </td>
-  </tr>
-</table>
-
-
-      <p> 
+         <p> 
              R1 : is to connect or not with voltage in of relay or 215 in of relay </br>
              R2 : is to connect or not with voltage out of relay </br>
              R3 - R7 : could be high for activation or low for no activation </br>
@@ -106,6 +98,14 @@ Resume lookuptable  </br>
              version8 : state choosen by the version 8 program </br>
              The last coulumn is the approximate VOLTAGE_TRANSITION_STATE (for each), it will be experimented at the INTEGRATION TEST OF CODE </br>             
         </p>
+
+       <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.jpg"  alt="Image of lookuptable resume">
+
+    </td>
+  </tr>
+</table>
+
+
 
 
 
