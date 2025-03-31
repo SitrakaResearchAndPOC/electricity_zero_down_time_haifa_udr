@@ -146,7 +146,6 @@ Copy this code on arduino, save as the name is  stabilizer_tapping_state_all_on.
           delay(200);
         }
        
-        ```
 
       </details>
     </td>
