@@ -84,15 +84,15 @@ Resume lookuptable  </br>
 <table border="1" cellpadding="10">
   <tr>
     <td>
-        <details>
-        <summary>🧮 click for details of LookUpTable </summary>
-       
-        <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.jpg"  alt="Image of lookuptable resumme">
-  
-        </details>
+      <details>
+        <summary>🖼️ Image of arduino with relay </summary>
+      </details>
+       <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.jpg"  alt="Image of lookuptable resumme">
+
     </td>
   </tr>
-</table>  
+</table>
+
 
       <p> 
              R1 : is to connect or not with voltage in of relay or 215 in of relay </br>
@@ -118,6 +118,7 @@ Resume lookuptable  </br>
     <td>
       <details>
         <summary>🖼️ Image of arduino with relay </summary>
+      </details>
          <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_RELAY.jpg"  alt="Image of arduino with relay">
     </td>
   </tr>
