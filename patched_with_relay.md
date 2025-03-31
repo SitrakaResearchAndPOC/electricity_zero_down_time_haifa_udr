@@ -40,16 +40,38 @@ At 80v, the power maximal power supported is : = 5,3846 * 80 V = 430 w  </br>
  
 # III - ARDUINO IC CIRCUIT CONNECTION (PCB DOWN VIEW)
 It's easy to follow the inteconnection with down view
-<table>
-    <tr>
-        <td style="width: 80%; padding: 0; text-align: center;">
-            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_1.jpg"  alt="Image of arduino connection 1">
-        </td>
-        <td style="width: 20%; padding: 0; text-align: center;">
-            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_2.jpg"  alt="Image of arduino connection 2">
-        </td>
-    </tr>
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of arduino connection </summary>
+ <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_1.jpg"  alt="Image of documentation 2">
+
+  </tr>
 </table>
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of arduino connection about hardware </summary>
+ <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_2.jpg"  alt="Image of documentation 2">
+
+  </tr>
+</table>
+
+[Arduino Connection](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_ALL.pdf)
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of arduino connection </summary>
+ <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_ALL.jpg"  alt="Image of documentation 2">
+
+  </tr>
+</table>
+
 
 # IV - ARDUINO IC CIRCUIT CONNECTION (PCB TOP VIEW)
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTECONNECTION_TOP_VIEW.jpg"  alt="Image des pins extra transformateur avec notation">
