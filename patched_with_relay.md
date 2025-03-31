@@ -2295,7 +2295,6 @@ Turn the potentiometer
 
 * scan i2c lcd
 
-
 <table border="1" cellpadding="10">
   <tr>
     <td>
@@ -2398,10 +2397,10 @@ Choose this adress on the code
 * librairies
 
 [liquid_crystal_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LiquidCrystal_I2C-1.1.2.zip) </br>
-[scan_i2c_ino](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/scan_i2c.zip) </br>
-[hello_world_ino](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/hello_world_lcd_1602.zip) </br>
+[scan_i2c_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/scan_i2c.zip) </br>
+[hello_world_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/hello_world_lcd_1602.zip) </br>
 
-* print hello worl in each line
+* print hello world in each line
 
 <table border="1" cellpadding="10">
   <tr>
@@ -2438,10 +2437,165 @@ Choose this adress on the code
 ## LCD OLED
 
 * scan lcd
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+        <details>
+        <summary>📑 Click for having code : scan_i2c_lcd.ino  </summary>
+        <p> Copy this code on arduino, save as the name is  scan_i2c_lcd.ino  and upload + run </p>
+      
+      // SPDX-FileCopyrightText: 2023 Carter Nelson for Adafruit Industries
+      //
+      // SPDX-License-Identifier: MIT
+      // --------------------------------------
+      // i2c_scanner
+      //
+      // Modified from https://playground.arduino.cc/Main/I2cScanner/
+      // --------------------------------------
+      
+      #include <Wire.h>
+      
+      // Set I2C bus to use: Wire, Wire1, etc.
+      #define WIRE Wire
+      
+      void setup() {
+        WIRE.begin();
+      
+        Serial.begin(9600);
+        while (!Serial)
+           delay(10);
+        Serial.println("\nI2C Scanner");
+      }
+      
+      
+      void loop() {
+        byte error, address;
+        int nDevices;
+      
+        Serial.println("Scanning...");
+      
+        nDevices = 0;
+        for(address = 1; address < 127; address++ )
+        {
+          // The i2c_scanner uses the return value of
+          // the Write.endTransmisstion to see if
+          // a device did acknowledge to the address.
+          WIRE.beginTransmission(address);
+          error = WIRE.endTransmission();
+      
+          if (error == 0)
+          {
+            Serial.print("I2C device found at address 0x");
+            if (address<16)
+              Serial.print("0");
+            Serial.print(address,HEX);
+            Serial.println("  !");
+      
+            nDevices++;
+          }
+          else if (error==4)
+          {
+            Serial.print("Unknown error at address 0x");
+            if (address<16)
+              Serial.print("0");
+            Serial.println(address,HEX);
+          }
+        }
+        if (nDevices == 0)
+          Serial.println("No I2C devices found\n");
+        else
+          Serial.println("done\n");
+      
+        delay(5000);           // wait 5 seconds for next scan
+      }        
+        
+  </tr>
+</table>  
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image result of scan_i2c_lcd.ino  </summary>
+         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/SCAN_I2C_OLED.JPG"  alt="Image of result">
+  </tr>
+</table>
+</br>  
+
+Choose this adress on the code
 
 * hardware interconnection
 
-* print hello worl in each line
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image result of hardware connection with lcd 1602 </summary>
+         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LCD_OLED.jpg"  alt="Image of result">
+  </tr>
+</table>
+</br>
+
+* librairies
+
+[scan_i2c_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/scan_i2c.zip) </br>
+[adafruit_gfx_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/Adafruit_GFX_Library-1.12.0.zip) </br>
+[adafruit_ssd_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/Adafruit_SSD1306-2.5.13.zip) </br>
+[hello_world_oled_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/hello_world_lcd_oled.zip) </br>
+
+
+* print hello in each line
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+        <details>
+        <summary>📑 Click for having code : hellooworld_lcd_1602.ino  </summary>
+        <p> Copy this code on arduino, save as the name is  hellooworld_lcd_1602.ino and upload + run </p>
+
+        #include <Wire.h>
+        #include <Adafruit_GFX.h>
+        #include <Adafruit_SSD1306.h>
+        
+        // Taille de l'écran OLED
+        #define SCREEN_WIDTH 128
+        #define SCREEN_HEIGHT 32
+        
+        // Adresse I2C de l'écran OLED (0x3C pour la plupart des écrans)
+        #define OLED_ADDRESS 0x3C
+        
+        // Initialisation de l'écran OLED
+        Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+        
+        void setup() {
+            if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDRESS)) {
+                Serial.println(F("Échec de l'initialisation de l'écran OLED"));
+                for (;;);
+            }
+        
+            display.clearDisplay();  // Effacer l'écran
+        
+            display.setTextSize(2);  // Taille du texte (2x plus grand)
+            display.setTextColor(SSD1306_WHITE);
+        
+            // Affichage du premier texte
+            display.setCursor(0, 0);  // Position ajustée
+            display.print("Hello ");
+         
+            // Affichage du deuxième texte
+            display.setCursor(0, 16);  // Seconde ligne
+            display.print("Hello 2");
+        
+            display.display();  // Mettre à jour l'écran
+        }
+        
+        void loop() {
+            // Rien dans la loop car le texte est statique
+        }
+
+  </tr>
+</table>  
+
 
 # IV - INTEGRATION CODE
 [schematic_global_coding](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/GLOBAL_CODING.pdf)
