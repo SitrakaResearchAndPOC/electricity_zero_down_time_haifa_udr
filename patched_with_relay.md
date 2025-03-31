@@ -104,10 +104,7 @@ The last coulumn is the approximate VOLTAGE_TRANSITION_STATE (for each), it will
 * stabilizer_tapping_state_all_on
 Copy this code on arduino, save as the name is  stabilizer_tapping_state_all_on.ino and upload + run
 
-<table border="1" cellpadding="10">
-  <tr>
-    <td>
-      <details>
+    <details>
         <summary>📂 stabilizer_tapping_state_all_on.ino</summary>
         <p>Ce fichier contient le code de gestion des relais.</p>
         
@@ -148,6 +145,10 @@ Copy this code on arduino, save as the name is  stabilizer_tapping_state_all_on.
         }
         ```
       </details>
+  
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
     </td>
   </tr>
 </table>
