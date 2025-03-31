@@ -86,7 +86,7 @@ It's easy to follow the inteconnection with down view
 
 
 # V - RELAY CONNECTION
-## Schematic :
+## Schematic 
 When command relay is HIGH -> MIDLE AND DOWN IS CONNECTED ON THE RELAY </br>
 When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 [relay_connetion_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION.pdf)
@@ -124,21 +124,32 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 ## Relay interconnection with all name
 
 [schematic_with_all_notation](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.pdf)
+</br>
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🧮 click for having LookUpTable </summary>
+       <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.jpg"  alt="Image of relay interconnection with all name">       
+<p> 
+    FOR HARDWARE (NOTATION BEGINS BY ONE) </br>
+    FOR SOFTWARE AKA CODING (NOTATION BEGINS BY ZERO) </br> </br>
+    Equivalence between name's relay : R begin by zero and K begin by one  </br>
+    R0 is K1 </br>
+    R1 is K2 </br>
+    R2 is K3 </br>
+    ...</br>
+    Equivalence between name's command relay : CR begin by zero and IN begin by one </br>
+    CR0 is IN1 </br>
+    CR1 is IN2 </br>
+    CR2 is IN3 </br>
+    ...
+</p>
+  </tr>
+</table>
+FOR HARDWARE (NOTATION BEGINS BY ONE) : Relay noted by KX and command noted by INX </br>
+FOR SOFTWARE AKA CODING (NOTATION BEGINS BY ZERO) : Relady noted by RX and command noted by CRX </br> </br>
 
-<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL_NAME.jpg"  alt="Image of relay interconnection with all name">
-
-FOR HARDWARE (NOTATION BEGINS BY ONE) </br>
-FOR SOFTWARE AKA CODING (NOTATION BEGINS BY ZERO) </br> </br>
-Equivalence between name's relay : R begin by zero and K begin by one  </br>
-R0 is K1 </br>
-R1 is K2 </br>
-R2 is K3 </br>
-...</br>
-Equivalence between name's command relay : CR begin by zero and IN begin by one </br>
-CR0 is IN1 </br>
-CR1 is IN2 </br>
-CR2 is IN3 </br>
-...
 
 ## Explanation by lookuptable
 
@@ -147,9 +158,8 @@ Full complete guide of lookuptable in excel </br>
  </br>
 Resume lookuptable  </br>
 [lookuptable_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.pdf)
-
-
 </br>
+
 <table border="1" cellpadding="10">
   <tr>
     <td>
