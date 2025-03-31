@@ -2147,7 +2147,11 @@ For easly setup, use power_plug for the input of sensor voltage and output senso
 <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/POWER_PLUG.jpg"  alt="Image of global coding">
   </tr>
 </table>
-        
+
+* librairies
+
+[filters_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/Filters-master.zip)
+[zmpt101b_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/zmpt101b.zip)
 * Calibration
 
 Calibrate the sensor when the voltage is near of 220V </br>
@@ -2272,7 +2276,7 @@ float slope2 = 2.60;                // For adjusting the test calibration for in
 
 * hardware calibration
 
-Turn the potentiolmeter
+Turn the potentiometer
 
 <table border="1" cellpadding="10">
   <tr>
