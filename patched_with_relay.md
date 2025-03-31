@@ -2379,13 +2379,60 @@ Turn the potentiometer
          <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/SCAN_I2C_LCD.JPG"  alt="Image of result">
   </tr>
 </table>
-</br>
+</br>  
 
-  
+Choose this adress on the code
 
 * hardware interconnection
+  
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image result of hardware connection with lcd 1602 </summary>
+         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LCD_I2C_1602.jpg"  alt="Image of result">
+  </tr>
+</table>
+</br>
+
+* librairies
+
+[liquid_crystal_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LiquidCrystal_I2C-1.1.2.zip) </br>
+[scan_i2c_ino](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/scan_i2c.zip) </br>
+[hello_world_ino](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/hello_world_lcd_1602.zip) </br>
 
 * print hello worl in each line
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+        <details>
+        <summary>📑 Click for having code : hellooworld_lcd_1602.ino  </summary>
+        <p> Copy this code on arduino, save as the name is  hellooworld_lcd_1602.ino and upload + run </p>
+
+        #include <Wire.h>
+        #include <LiquidCrystal_I2C.h>
+        
+        // Initialize the LCD with I2C address 0x27 (common) or 0x3F (alternative)
+        LiquidCrystal_I2C lcd(0x27, 16, 2);  // (I2C address, columns, rows)
+        
+        void setup() {
+          lcd.init();        // Initialize the LCD
+          lcd.backlight();   // Turn on the backlight
+        
+          lcd.setCursor(0, 0); // Move cursor to first row, first column
+          lcd.print("Hello World"); // Print on first row
+        
+          lcd.setCursor(0, 1); // Move cursor to second row, first column
+          lcd.print("Hello World 2"); // Print on second row
+        }
+        
+        void loop() {
+          // No need to put anything here unless you want animations
+        }
+                
+  </tr>
+</table>  
 
  
 ## LCD OLED
@@ -2407,8 +2454,6 @@ Turn the potentiometer
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/GLOBAL_CODING.jpg"  alt="Image of global coding">
   </tr>
 </table>
-
-
 
 # X - PIN TO KNOW
 * PIN OF EXTRA TRANSFORMATOR
