@@ -3,23 +3,36 @@
 [haifa_documentation](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/HAIFA_DOCUMENTATION/All_haifa_documentation.pdf)
 
 # II - INTERSTING KNOWLEDGE WITH HAIFA UDR
-## Voltage range : 
+## Voltage range 
 
-[INPUT : 80V -> 260V ; OUTPUT : 220V]
+INPUT : 80V -> 260V and OUTPUT : 220V
 
-## Power :
+## Power 
+
+POWER : 500va; 1Kva; 1,5Kva; 2Kva; 3Kva; 5Kva; 10kva 
+
 <table border="1" cellpadding="10">
   <tr>
     <td>
       <details>
-        <summary>🖼️ Click for having image of arduino with relay </summary>
+        <summary>🖼️ Click for having image of available power </summary>
         <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_1.jpg"  alt="Image of documentation 1">
   </tr>
 </table>
 
 
 ## Curve of minimal power :
-<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_2.jpg"  alt="Image of documentation 2">
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of minimal power on documentation </summary>
+ <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_2.jpg"  alt="Image of documentation 2">
+
+  </tr>
+</table>
+
+
 eg : for stabilizer 2000va = 2000 * 0.7 W = 1400W  </br>
 At 130v, 50% of power ... </br>
 so at 210v, it's support 1000va = 1000 * 0,7 w = 700W , current will be near : = 700W/130V = 5,3846A </br>
