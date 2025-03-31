@@ -1,6 +1,6 @@
 # PATCHED WITH RELAYS : 
 # I - HAIFA DOCUMENTATION
-[haifa_documentation](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/HAIFA_DOCUMENTATION/All_haifa_documentation.pdf)
+[haifa_documentation_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/HAIFA_DOCUMENTATION/All_haifa_documentation.pdf)
 
 # II - INTERSTING KNOWLEDGE WITH HAIFA UDR
 ## Voltage range 
@@ -71,7 +71,7 @@ It's easy to follow the inteconnection with down view
   </tr>
 </table>
 
-[arduino_connection](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_ALL.pdf)
+[arduino_connection_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_ALL.pdf)
 
 # IV - ARDUINO IC CIRCUIT CONNECTION (PCB TOP VIEW)
 <table border="1" cellpadding="10">
@@ -87,7 +87,6 @@ It's easy to follow the inteconnection with down view
 
 # V - RELAY CONNECTION
 ## Schematic 
-[relay_connetion_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION.pdf)
 <table border="1" cellpadding="10">
   <tr>
     <td>
@@ -118,7 +117,9 @@ It's easy to follow the inteconnection with down view
   </tr>
 </table>
 
-[relay_connection](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL.pdf)
+[relay_connetion_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION.pdf) </br>
+[relay_connection_all_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL.pdf) </br>
+
 When command relay is HIGH -> MIDLE AND DOWN IS CONNECTED ON THE RELAY </br>
 When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 
@@ -184,11 +185,6 @@ Resume lookuptable  </br>
 </table>
 
 
-
-
-
-
-
 # VI - ARDUINO + RELAY CONNECTION
 ## Schematic
 <table border="1" cellpadding="10">
@@ -249,9 +245,18 @@ Resume lookuptable  </br>
   </tr>
 </table>  
 
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image result of stabilizer_tapping_state_all_on.ino </summary>
+         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/stabilizer_tapping_state_all_on.jpg"  alt="Image of result">
+  </tr>
+</table>
 
 
-All led realy should be ON
+
+
 
 * stabilizer_tapping_state_security_voltage
 
@@ -360,7 +365,16 @@ Do calibration for involtage and outvoltage </br>
 
 # IV - INTEGRATION CODE
 [schematic_global_coding](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/GLOBAL_CODING.pdf)
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image the hardware and integration code  </summary>
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/GLOBAL_CODING.jpg"  alt="Image of global coding">
+  </tr>
+</table>
+
 
 
 # X - PIN TO KNOW
