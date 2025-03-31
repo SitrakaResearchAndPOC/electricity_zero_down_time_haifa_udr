@@ -64,10 +64,10 @@ It's easy to follow the inteconnection with down view
 
 <table>
     <tr>
-        <td>
+        <td style="width: 60%; padding: 0; text-align: center;">
             <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_1.jpg"  alt="Image of arduino connection 1">
         </td>
-        <td>
+        <td style="width: 40%; padding: 0; text-align: center;">
             <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_2.jpg"  alt="Image of arduino connection 2">
         </td>
     </tr>
