@@ -401,13 +401,11 @@ FOR SOFTWARE AKA CODING (NOTATION BEGINS BY ZERO) : Relady noted by RX and comma
     <td>
       <details>
         <summary>🖼️ Click for having image result of stabilizer_tapping_state_security_voltage.ino </summary>
-         <img src=""  alt="Image of result">
+         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/stabilizer_tapping_state_security.jpg"  alt="Image of result">
   </tr>
 </table>
 
-
-Copy this code on arduino, save as the name is  stabilizer_tapping_state_security_voltage.ino and upload + run
-
+WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE
 
 
 
