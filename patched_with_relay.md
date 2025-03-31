@@ -113,11 +113,12 @@ It's easy to follow the inteconnection with down view
     <td>
       <details>
         <summary>🖼️ Click for having image of relay connection about hardware (all in one) </summary>
-        <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_2.jpg" alt="Image des pins extra transformateur avec notation">
+        <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL.jpg" alt="Image des pins extra transformateur avec notation">
 
   </tr>
 </table>
 
+[relay_connection](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION_ALL.pdf)
 When command relay is HIGH -> MIDLE AND DOWN IS CONNECTED ON THE RELAY </br>
 When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 
