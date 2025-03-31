@@ -86,9 +86,9 @@ Resume lookuptable  </br>
     <td>
       <details>
         <summary>🖼️ Image of arduino with relay </summary>
-      </details>
+   
        <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.jpg"  alt="Image of lookuptable resumme">
-
+   </details>
     </td>
   </tr>
 </table>
@@ -118,7 +118,6 @@ Resume lookuptable  </br>
     <td>
       <details>
         <summary>🖼️ Image of arduino with relay </summary>
-      </details>
          <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_RELAY.jpg"  alt="Image of arduino with relay">
     </td>
   </tr>
