@@ -87,8 +87,6 @@ It's easy to follow the inteconnection with down view
 
 # V - RELAY CONNECTION
 ## Schematic 
-When command relay is HIGH -> MIDLE AND DOWN IS CONNECTED ON THE RELAY </br>
-When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 [relay_connetion_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION.pdf)
 <table border="1" cellpadding="10">
   <tr>
@@ -120,6 +118,8 @@ When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
   </tr>
 </table>
 
+When command relay is HIGH -> MIDLE AND DOWN IS CONNECTED ON THE RELAY </br>
+When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
 
 ## Relay interconnection with all name
 
