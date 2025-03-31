@@ -2150,8 +2150,9 @@ For easly setup, use power_plug for the input of sensor voltage and output senso
 
 * librairies
 
-[filters_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/Filters-master.zip)
-[zmpt101b_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/zmpt101b.zip)
+[filters_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/Filters-master.zip) </br>
+[zmpt101b_zip](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/zmpt101b.zip) </br>
+
 * Calibration
 
 Calibrate the sensor when the voltage is near of 220V </br>
@@ -2292,7 +2293,20 @@ Turn the potentiometer
 # VIII - ARDUINO + LCD OLED OR LCDx1602
 ## LCDx1602
 
+* scan lcd
+
+* hardware interconnection
+
+* print hello worl in each line
+
+ 
 ## LCD OLED
+
+* scan lcd
+
+* hardware interconnection
+
+* print hello worl in each line
 
 # IV - INTEGRATION CODE
 [schematic_global_coding](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/GLOBAL_CODING.pdf)
