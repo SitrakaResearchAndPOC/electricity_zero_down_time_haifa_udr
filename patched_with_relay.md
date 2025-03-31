@@ -155,10 +155,10 @@ FOR SOFTWARE AKA CODING (NOTATION BEGINS BY ZERO) : Relady noted by RX and comma
 
 ## Explanation by lookuptable
 
-Full complete guide of lookuptable in excel </br>
+* Full complete guide of lookuptable in excel </br>
 [lookuptable_excel](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.xlsx)
  </br>
-Resume lookuptable  </br>
+* Resume lookuptable  </br>
 [lookuptable_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.pdf)
 </br>
 
@@ -239,6 +239,25 @@ Resume lookuptable  </br>
 
           Serial.println("LED RELAY ALL ON");
 
+        /*
+          Serial.println("Relay0");      
+          Serial.println(digitalRead(Relay0));      
+          Serial.println("Relay1");      
+          Serial.println(digitalRead(Relay1));      
+          Serial.println("Relay2");      
+          Serial.println(digitalRead(Relay2));      
+          Serial.println("Relay3");      
+          Serial.println(digitalRead(Relay3));      
+          Serial.println("Relay4");      
+          Serial.println(digitalRead(Relay4));      
+          Serial.println("Relay5");      
+          Serial.println(digitalRead(Relay5));      
+          Serial.println("Relay6");      
+          Serial.println(digitalRead(Relay6));      
+          Serial.println("Relay7");      
+          Serial.println(digitalRead(Relay7));      
+        */ 
+
           delay(200);
         }
         
@@ -255,100 +274,137 @@ Resume lookuptable  </br>
 </table>
 
 
-
-
-
 * stabilizer_tapping_state_security_voltage
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+        <details>
+        <summary>📑 Click for having code : stabilizer_tapping_state_security_voltage.ino  </summary>
+        <p> Copy this code on arduino, save as the name is  stabilizer_tapping_state_security_voltage.ino and upload + run 
+                    
+                    /*
+                    Programmed by Sitraka : In the hack we trust
+                    */
+                    
+                    int Relay0 = 9;
+                    int Relay1 = 8;
+                    int Relay2 = 7;
+                    int Relay3 = 6;
+                    int Relay4 = 5;
+                    int Relay6 = 4;
+                    int Relay5 = 3;
+                    int Relay7 = 2;
+                    
+                    void delayMillis(unsigned long duration) {
+                      unsigned long previousMillis = millis();  
+                      while (millis() - previousMillis < duration) {
+                      }
+                    }
+                    
+                    // ALL RELAY INACTIF : HIGH
+                    int Relay0_state = HIGH;
+                    int Relay1_state = HIGH;
+                    int Relay2_state = HIGH;
+                    int Relay3_state = HIGH;
+                    int Relay4_state = HIGH;
+                    int Relay5_state = HIGH;
+                    int Relay6_state = HIGH;
+                    int Relay7_state = HIGH;
+                    
+                    
+                    // NO OUTPUT for security of equipement
+                    // ALL LED OF RELAY IS OFF indeed RELAY0 or K1
+                    
+                    int normal = 0;
+                    void stabilizer_tapping_security_voltage(){
+                       // Something is anormal on voltage (really high or really low) 
+                       normal = 0;
+                       // Relay0 will be inactif so becomes HIGH
+                       if(Relay0_state == LOW){  
+                          digitalWrite(Relay0,HIGH); 
+                          delayMillis(5);
+                          Relay0_state = HIGH;
+                       }                        
+                    }
+                    
+                    void setup() {
+                      // put your setup code here, to run once:
+                      pinMode(Relay0, OUTPUT);
+                      pinMode(Relay1, OUTPUT);
+                      pinMode(Relay2, OUTPUT);
+                      pinMode(Relay3, OUTPUT);
+                      pinMode(Relay4, OUTPUT);
+                      pinMode(Relay5, OUTPUT);
+                      pinMode(Relay6, OUTPUT);
+                      pinMode(Relay7, OUTPUT);
+                    
+                      pinMode(A0, INPUT);
+                    
+                      // initialization :   
+                      digitalWrite(Relay0,HIGH);      
+                      digitalWrite(Relay1,HIGH);
+                      digitalWrite(Relay2,HIGH);
+                      digitalWrite(Relay3,HIGH);                    
+                      digitalWrite(Relay4,HIGH);                    
+                      digitalWrite(Relay5,HIGH);
+                      digitalWrite(Relay6,HIGH);
+                      digitalWrite(Relay7,HIGH);
+                      
+                      delay(50);
+                      Serial.begin(9600);
+                    }
+                    
+                    void loop() {
+                      // Don't activate this part of code to avoid blinking
+                    /*      
+                      if(Relay0_state == HIGH){
+                      digitalWrite(Relay0,LOW);
+                      delayMillis(5);
+                      Relay0_state = LOW;
+                      }
+                    */
+                    
+                      stabilizer_tapping_security_voltage();
+                    
+                    /*
+                      Serial.println("Relay0");      
+                      Serial.println(digitalRead(Relay0));      
+                      Serial.println("Relay1");      
+                      Serial.println(digitalRead(Relay1));      
+                      Serial.println("Relay2");      
+                      Serial.println(digitalRead(Relay2));      
+                      Serial.println("Relay3");      
+                      Serial.println(digitalRead(Relay3));      
+                      Serial.println("Relay4");      
+                      Serial.println(digitalRead(Relay4));      
+                      Serial.println("Relay5");      
+                      Serial.println(digitalRead(Relay5));      
+                      Serial.println("Relay6");      
+                      Serial.println(digitalRead(Relay6));      
+                      Serial.println("Relay7");      
+                      Serial.println(digitalRead(Relay7));      
+                    */ 
+                    
+                      delay(200);
+                    }
+
+        
+  </tr>
+</table>  
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image result of stabilizer_tapping_state_security_voltage.ino </summary>
+         <img src=""  alt="Image of result">
+  </tr>
+</table>
+
 
 Copy this code on arduino, save as the name is  stabilizer_tapping_state_security_voltage.ino and upload + run
 
-```  
-/*
-Programmed by Sitraka : In the hack we trust
-*/
-
-int Relay0 = 9;
-int Relay1 = 8;
-int Relay2 = 7;
-int Relay3 = 6;
-int Relay4 = 5;
-int Relay6 = 4;
-int Relay5 = 3;
-int Relay7 = 2;
-
-void delayMillis(unsigned long duration) {
-  unsigned long previousMillis = millis();  
-  while (millis() - previousMillis < duration) {
-  }
-}
-
-// ALL RELAY INACTIF : HIGH
-int Relay0_state = HIGH;
-int Relay1_state = HIGH;
-int Relay2_state = HIGH;
-int Relay3_state = HIGH;
-int Relay4_state = HIGH;
-int Relay5_state = HIGH;
-int Relay6_state = HIGH;
-int Relay7_state = HIGH;
-
-
-// NO OUTPUT for security of equipement
-// ALL LED OF RELAY IS OFF indeed RELAY0 or K1
-
-int normal = 0;
-void stabilizer_tapping_security_voltage(){
-   // Something is anormal on voltage (really high or really low) 
-   normal = 0;
-   // Relay0 will be inactif so becomes HIGH
-   if(Relay0_state == LOW){  
-      digitalWrite(Relay0,HIGH); 
-      delayMillis(5);
-      Relay0_state = HIGH;
-   }                        
-}
-
-void setup() {
-  // put your setup code here, to run once:
-  pinMode(Relay0, OUTPUT);
-  pinMode(Relay1, OUTPUT);
-  pinMode(Relay2, OUTPUT);
-  pinMode(Relay3, OUTPUT);
-  pinMode(Relay4, OUTPUT);
-  pinMode(Relay5, OUTPUT);
-  pinMode(Relay6, OUTPUT);
-  pinMode(Relay7, OUTPUT);
-
-  pinMode(A0, INPUT);
-
-  // initialization :   
-  digitalWrite(Relay0,HIGH);      
-  digitalWrite(Relay1,HIGH);
-  digitalWrite(Relay2,HIGH);
-  digitalWrite(Relay3,HIGH);                    
-  digitalWrite(Relay4,HIGH);                    
-  digitalWrite(Relay5,HIGH);
-  digitalWrite(Relay6,HIGH);
-  digitalWrite(Relay7,HIGH);
-  
-  delay(50);
-  Serial.begin(9600);
-}
-
-void loop() {
-  // Don't activate this part of code to avoid blinking
-/*      
-  if(Relay0_state == HIGH){
-  digitalWrite(Relay0,LOW);
-  delayMillis(5);
-  Relay0_state = LOW;
-  }
-*/
-
-  stabilizer_tapping_security_voltage(); 
-  delay(200);
-}
-```  
 
 
 
