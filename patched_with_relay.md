@@ -2135,8 +2135,155 @@ WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE </br>
 </br>
 
 # VII - ARDUINO + SENSOR VOLTAGE (ZMPT101B)
+* Schematic
+
+For easly setup, use power_plug for the input of sensor voltage and output sensor voltage
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of power_plug (input and output)  </summary>
+<img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/POWER_PLUG.jpg"  alt="Image of global coding">
+  </tr>
+</table>
+        
+* Calibration
+
 Calibrate the sensor when the voltage is near of 220V </br>
 Do calibration for involtage and outvoltage </br>
+
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+        <details>
+        <summary>📑 Click for having code : calibration  </summary>
+        <p> Copy this code on arduino, save as the name is  calibration and upload + run </p>
+
+      #include <FilterDerivative.h>
+      #include <Filters.h>
+      
+      float testFrequency = 50;            // Fréquence of filter (Hz)
+      float windowLength = 40.0 / testFrequency; // mean duration of the involtage or outvoltage for doing statistics 
+      
+      int outSensor = 0;                      // Analog input for the senor , initialized by zero 0 but changed after as analogRead of A3
+      int inSensor = 0;                      // Analog input for the senor , initialized by zero 0 but changed after as analogRead of A2
+      
+      float intercept = -0.04;             // For adjusting the test calibration result
+      //float slope = 0.03905;                // For adjusting the test calibration for involtage or outvoltage
+      float slope1 = 2.59;                // For adjusting the test calibration for involtage or outvoltage
+      float slope2 = 2.60;                // For adjusting the test calibration for involtage or outvoltage
+      
+      float output_Volts;                 // The voltage after stabilization
+      float input_Volts;                 // The voltage befor stabilization
+      
+      unsigned long printPeriod = 1000;    // rate of update time (ms)
+      unsigned long previousMillis = 0;
+      
+      unsigned long warmUpTime = 8000; // Time to wait for initialization of the voltage sensor to collect all data before RMS is 8 secondes
+      bool isWarmUpComplete = false; // boolean to said that warmUpTime is complete
+      unsigned long startTime = millis(); // Time of beginning
+      
+      
+      // Frequency is really important so delay with interruption couldn't be used 
+      // USE instead delay with millis so i create this function delayMillis() for that
+      void delayMillis(unsigned long duration) {
+        unsigned long previousMillis = millis();   
+        while (millis() - previousMillis < duration) {
+        }
+      }
+      
+      
+      
+      
+      void setup() {
+        // initialization of serial port
+        Serial.begin(9600);    
+      
+        // initialization of involtage and outvoltage
+        pinMode(A2, INPUT);
+        pinMode(A3, INPUT);
+        
+        delay(20);
+        
+      }
+      
+      void loop() {
+        RunningStatistics outputStats;                  // Calcul facile des statistiques, dont la valeur RMS pour la tension output
+        outputStats.setWindowSecs(windowLength);
+        
+        RunningStatistics inputStats;                  // Calcul facile des statistiques, dont la valeur RMS pour la tension input
+        inputStats.setWindowSecs(windowLength);
+        
+        while (true) {
+          outSensor = analogRead(A3);                     // Lire la valeur analogique
+          outputStats.input(outSensor);                    // Enregistrer dans la fonction Stats
+        
+          inSensor = analogRead(A2);                     // Lire la valeur analogique
+          inputStats.input(inSensor);                    // Enregistrer dans la fonction Stats
+        
+        
+        if(isWarmUpComplete == false){  
+            // initialization relay: 
+        }
+        
+           
+          // verify if the time to wait for having all rms data of input voltage is complete
+          if (millis() - startTime >= warmUpTime) {
+            //initialization_relay_state_arduino_relay();
+            //initialization_relay_arduino_relay();            
+            isWarmUpComplete = true;
+          }
+        
+        
+          // the time to wait for having all rms data of input voltage is complete
+          if (((unsigned long)(millis() - previousMillis) >= printPeriod) && isWarmUpComplete){
+            previousMillis = millis();                 // update timing
+        
+            output_Volts = intercept + slope2 * outputStats.sigma(); // do calibration of offset and amplitude for output voltage
+            output_Volts = output_Volts;                // do calibration of offset and amplitude for output voltage
+        
+            input_Volts = intercept + slope1 * inputStats.sigma(); // do calibration of offset and amplitude for input voltage
+            input_Volts = input_Volts;                // do calibration of offset and amplitude for input voltage
+        
+            Serial.println("input_Volts ");
+            Serial.println(input_Volts);
+            
+            Serial.println("output_Volts ");
+            Serial.println(output_Volts);
+            Serial.println("");
+      
+          }
+        }
+      }        
+      
+  </tr>
+</table>  
+
+* software calibration 
+
+Change this part of the code and do only calibration near 220V
+
+```
+float slope1 = 2.59;                // For adjusting the test calibration for involtage or outvoltage
+float slope2 = 2.60;                // For adjusting the test calibration for involtage or outvoltage
+```
+
+* hardware calibration
+
+Turn the potentiolmeter
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for calibration potentiometer </summary>
+         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/POT_CALIBRATION.jpg"  alt="Image of result">
+  </tr>
+</table>
+</br>
+
 
 # VIII - ARDUINO + LCD OLED OR LCDx1602
 ## LCDx1602
