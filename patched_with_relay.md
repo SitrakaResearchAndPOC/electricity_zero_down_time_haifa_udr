@@ -129,7 +129,7 @@ Resume lookuptable  </br>
   <tr>
     <td>
         <details>
-        <summary>📑 Click for having code : <code> stabilizer_tapping_state_all_on.ino </code> </summary>
+        <summary>📑 Click for having code : <pre> stabilizer_tapping_state_all_on.ino </pre> </summary>
         <p> Copy this code on arduino, save as the name is  stabilizer_tapping_state_all_on.ino and upload + run 
         
          /* haifa with 8 relay : CR7 = D2, CR5 = D3, CR6= D4, CR4= D5, CR3= D6, CR2= D7, CR1 = D8 , CR0 = D9 de 2 à 9 */
