@@ -168,7 +168,6 @@ Resume lookuptable  </br>
 
           delay(200);
         }
-        </details>
     </td>
   </tr>
 </table>  
