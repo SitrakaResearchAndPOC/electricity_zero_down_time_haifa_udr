@@ -55,12 +55,11 @@ It's easy to follow the inteconnection with down view
     <td>
       <details>
         <summary>🖼️ Click for having image of arduino connection about hardware </summary>
- <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_2.jpg"  alt="Image of documentation 2">
+ <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_2.jpg"  alt="Image of documentation 2">
 
   </tr>
 </table>
 
-[Arduino Connection](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_ALL.pdf)
 
 <table border="1" cellpadding="10">
   <tr>
@@ -72,6 +71,7 @@ It's easy to follow the inteconnection with down view
   </tr>
 </table>
 
+[arduino_connection](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_ALL.pdf)
 
 # IV - ARDUINO IC CIRCUIT CONNECTION (PCB TOP VIEW)
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTECONNECTION_TOP_VIEW.jpg"  alt="Image des pins extra transformateur avec notation">
