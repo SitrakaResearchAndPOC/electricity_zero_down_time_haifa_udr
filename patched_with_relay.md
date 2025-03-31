@@ -155,10 +155,13 @@ FOR SOFTWARE AKA CODING (NOTATION BEGINS BY ZERO) : Relady noted by RX and comma
 
 ## Explanation by lookuptable
 
-* Full complete guide of lookuptable in excel </br>
+* Full complete guide of lookuptable in excel 
+
 [lookuptable_excel](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.xlsx)
  </br>
-* Resume lookuptable  </br>
+
+* Resume lookuptable 
+
 [lookuptable_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.pdf)
 </br>
 
