@@ -85,8 +85,21 @@ Resume lookuptable  </br>
   <tr>
     <td>
       <details>
-        <summary>🖼️ Image of arduino with relay </summary>
+        <summary>🖼️ click for details of LookUpTable </summary>
        <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.jpg"  alt="Image of lookuptable resume">
+       
+<p> 
+             R1 : is to connect or not with voltage in of relay or 215 in of relay </br>
+             R2 : is to connect or not with voltage out of relay </br>
+             R3 - R7 : could be high for activation or low for no activation </br>
+             IN_TAP : is interconnection with the intap of transformers  </br>
+             OUT_TAP : is interconnection with the intap of transformers  </br>
+             DIFF : is the differenciation between OUT_TAP and IN_TAP  </br>
+             DEV : is the differenciation between 220V minus DIFF  </br>
+             Tensions : is approximation interval for having near 220V at the output  </br>
+             version8 : state choosen by the version 8 program </br>
+             The last coulumn is the approximate VOLTAGE_TRANSITION_STATE (for each), it will be experimented at the INTEGRATION TEST OF CODE </br>             
+</p>
   </tr>
 </table>
 
