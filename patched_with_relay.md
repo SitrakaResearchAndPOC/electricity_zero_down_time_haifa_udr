@@ -87,8 +87,6 @@ Resume lookuptable  </br>
       <details>
         <summary>🖼️ Image of arduino with relay </summary>
        <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/LOOKUPTABLE_HAIFA.jpg"  alt="Image of lookuptable resume">
-
-    </td>
   </tr>
 </table>
 
