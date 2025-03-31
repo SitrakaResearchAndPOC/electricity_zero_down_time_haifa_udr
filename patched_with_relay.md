@@ -102,6 +102,57 @@ The last coulumn is the approximate VOLTAGE_TRANSITION_STATE (for each), it will
 
 * stabilizer_tapping_state_all_on
 Copy this code on arduino, save as the name is  stabilizer_tapping_state_all_on.ino and upload + run
+
+<table border="1" cellpadding="10">
+        <tr>
+            <td>
+                <details>
+                    <summary>📂 stabilizer_tapping_state_all_on.ino</summary>
+                    <p>Ce fichier contient le code de gestion des relais.</p>
+                    <pre>
+  ```
+      /* haifa with 8 relay : CR7 = D2, CR5 = D3, CR6= D4, CR4= D5, CR3= D6, CR2= D7, CR1 = D8 , CR0 = D9 de 2 à 9 */
+      void setup() {
+        // put your setup code here, to run once:
+        int stat=OUTPUT;
+        pinMode(2, stat);
+        pinMode(3, stat);
+        pinMode(4, stat);
+        pinMode(5, stat);
+        pinMode(6, stat);
+        pinMode(7, stat);
+        pinMode(8, stat);
+        pinMode(9, stat);
+        Serial.begin(9600); 
+      }
+      
+      void loop() {
+        // LOW FOR ACTIVATION
+        // HIGH FOR NO ACTIVATION
+        // NO OUTPUT CONNECTED ON THE STABILIZER
+        // ALL LED RELAY SHOULD BE ON
+        int stat = LOW; // change for LOW and HIGH
+        digitalWrite(2, stat);
+        digitalWrite(3, stat);
+        digitalWrite(4, stat);
+        digitalWrite(5, stat);
+        digitalWrite(6, stat);
+        digitalWrite(7, stat);
+        digitalWrite(8, stat);
+        digitalWrite(9, stat);
+      
+        Serial.println("LED RELAY ALL ON");
+      
+        delay(200);
+      }
+  ```
+
+                    </pre>
+                </details>
+            </td>
+        </tr>
+    </table>
+
 <details>
   <summary>📂stabilizer_tapping_state_all_on.ino  </summary>
 
