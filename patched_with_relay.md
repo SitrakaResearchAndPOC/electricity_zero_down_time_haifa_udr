@@ -65,7 +65,7 @@ It's easy to follow the inteconnection with down view
   <tr>
     <td>
       <details>
-        <summary>🖼️ Click for having image of arduino connection </summary>
+        <summary>🖼️ Click for having image of arduino connection about hardware (all in one) </summary>
  <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_ALL.jpg"  alt="Image of documentation 2">
 
   </tr>
@@ -74,28 +74,52 @@ It's easy to follow the inteconnection with down view
 [arduino_connection](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/ARDUINO_INTERCONNECTION_ALL.pdf)
 
 # IV - ARDUINO IC CIRCUIT CONNECTION (PCB TOP VIEW)
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of arduino connection top view </summary>
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_INTECONNECTION_TOP_VIEW.jpg"  alt="Image des pins extra transformateur avec notation">
+
+  </tr>
+</table>
+
 
 # V - RELAY CONNECTION
 ## Schematic :
 When command relay is HIGH -> MIDLE AND DOWN IS CONNECTED ON THE RELAY </br>
 When command relay is LOW  -> MIDLE AND UP IS CONNECTED ON THE RELAY </br>
-
 [relay_connetion_pdf](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/RELAY_INTECONNECTION.pdf)
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of relay connection </summary>
+        <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_1.JPG" alt="Image des pins extra transformateur">
 
-
-<table>
-    <tr>
-        <td>
-            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_1.JPG" alt="Image des pins extra transformateur">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_2.jpg" alt="Image des pins extra transformateur avec notation">
-        </td>
-    </tr>
+  </tr>
 </table>
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of relay connection about hardware </summary>
+        <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_2.jpg" alt="Image des pins extra transformateur avec notation">
+
+  </tr>
+</table>
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of relay connection about hardware (all in one) </summary>
+        <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/RELAY_INTERCONNECTION_2.jpg" alt="Image des pins extra transformateur avec notation">
+
+  </tr>
+</table>
+
 
 ## Relay interconnection with all name
 
