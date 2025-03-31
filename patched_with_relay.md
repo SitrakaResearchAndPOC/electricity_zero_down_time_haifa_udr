@@ -3,10 +3,20 @@
 [haifa_documentation](https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/HAIFA_DOCUMENTATION/All_haifa_documentation.pdf)
 
 # II - INTERSTING KNOWLEDGE WITH HAIFA UDR
-## Voltage range : [INPUT : 80V -> 260V ; OUTPUT : 220V]
+## Voltage range : 
+
+[INPUT : 80V -> 260V ; OUTPUT : 220V]
 
 ## Power :
-<img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_1.jpg"  alt="Image of documentation 1">
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image of arduino with relay </summary>
+        <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_1.jpg"  alt="Image of documentation 1">
+  </tr>
+</table>
+
 
 ## Curve of minimal power :
 <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/DOCUMENTATION_INTERESTING_2.jpg"  alt="Image of documentation 2">
@@ -117,7 +127,6 @@ Resume lookuptable  </br>
       <details>
         <summary>🖼️ Click for having image of arduino with relay </summary>
          <img src="https://raw.githubusercontent.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/main/PATCHED_WITH_RELAY/ARDUINO_RELAY.jpg"  alt="Image of arduino with relay">
-    </td>
   </tr>
 </table>
 
