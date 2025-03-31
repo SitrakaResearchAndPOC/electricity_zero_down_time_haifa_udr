@@ -1817,14 +1817,172 @@ WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE </br>
 </br>
 
 
-* stabilizer_tapping_state3_231_231
+* stabilizer_tapping_state10_231_231
 
 <table border="1" cellpadding="10">
   <tr>
     <td>
         <details>
-        <summary>📑 Click for having code : stabilizer_tapping_state3_231_231.ino  </summary>
-        <p> Copy this code on arduino, save as the name is  stabilizer_tapping_state3_231_231.ino and upload + run </p>
+        <summary>📑 Click for having code : stabilizer_tapping_state10_231_231.ino  </summary>
+        <p> Copy this code on arduino, save as the name is  stabilizer_tapping_state10_231_231.ino and upload + run </p>
+              
+      /*
+      Programmed by Sitraka : In the hack we trust
+      */
+      
+      int Relay0 = 9;
+      int Relay1 = 8;
+      int Relay2 = 7;
+      int Relay3 = 6;
+      int Relay4 = 5;
+      int Relay6 = 4;
+      int Relay5 = 3;
+      int Relay7 = 2;
+      
+      
+      void delayMillis(unsigned long duration) {
+        unsigned long previousMillis = millis(); 
+        while (millis() - previousMillis < duration) {
+        }
+      }
+      
+      // ALL RELAY INACTIF : HIGH
+      int Relay0_state = HIGH;
+      int Relay1_state = HIGH;
+      int Relay2_state = HIGH;
+      int Relay3_state = HIGH;
+      int Relay4_state = HIGH;
+      int Relay5_state = HIGH;
+      int Relay6_state = HIGH;
+      int Relay7_state = HIGH;
+      
+      
+      void stabilizer_tapping_state10_231_231(){  
+      // STATE 10 ARDUINO RELAY: 
+      // Relay1 -> Relay7  : L  H X X X X X
+      // INPUT1 -> INPUT8: L L  H X X X X X
+      // H means HIGH -> RELAY LED IS OFF
+      // L means  LOW -> RELAY LED IS ON
+      // inputtap = 231V and outpoutap = 231V
+      // < VOLTAGE_TRANSITION_10 (near of 235)
+      // verify interconnection of K2 MIDDLE AND K2 UP 
+      // verify interconnection of K1 UP AND K2 UP
+      
+       if(Relay1_state == HIGH){
+          digitalWrite(Relay1,LOW);
+          delayMillis(5);
+          Relay1_state = LOW;
+        }
+          
+       if(Relay2_state == LOW){  
+          digitalWrite(Relay2,HIGH);
+          delayMillis(5);                        
+          Relay2_state = HIGH;
+       }   
+       //if(Relay3_state == HIGH){ 
+       //   digitalWrite(Relay3,LOW);
+       //   delayMillis(5);                        
+       //   Relay3_state = LOW;
+       //}
+       //if(Relay4_state == HIGH){                        
+       //   digitalWrite(Relay4,LOW);
+       //   delayMillis(5);                        
+       //   Relay4_state = LOW;
+       //}
+       //if(Relay5_state == LOW){                      
+       //   digitalWrite(Relay5,HIGH);
+       //   delayMillis(5);                        
+       //   Relay5_state = HIGH;
+       //}
+       //if(Relay6_state == LOW){    
+       //   digitalWrite(Relay6,HIGH);
+       //   delayMillis(5);                        
+       //   Relay6_state = HIGH;                        
+       //}
+       //if(Relay7_state == LOW){    
+       //   digitalWrite(Relay7,HIGH);
+       //   delayMillis(5);                        
+       //   Relay7_state = HIGH;                        
+       //}
+        
+      }
+      
+      void setup() {
+        // put your setup code here, to run once:
+        pinMode(Relay0, OUTPUT);
+        pinMode(Relay1, OUTPUT);
+        pinMode(Relay2, OUTPUT);
+        pinMode(Relay3, OUTPUT);
+        pinMode(Relay4, OUTPUT);
+        pinMode(Relay5, OUTPUT);
+        pinMode(Relay6, OUTPUT);
+        pinMode(Relay7, OUTPUT);
+              
+        // initialization : 
+        digitalWrite(Relay0,HIGH);
+        digitalWrite(Relay1,HIGH);
+        digitalWrite(Relay2,HIGH);
+        digitalWrite(Relay3,HIGH);                    
+        digitalWrite(Relay4,HIGH);                    
+        digitalWrite(Relay5,HIGH);
+        digitalWrite(Relay6,HIGH);
+        digitalWrite(Relay7,HIGH);                   
+        delay(50);
+        Serial.begin(9600);
+      }
+      
+      void loop() {
+      
+      if(Relay0_state == HIGH){
+        digitalWrite(Relay0,LOW);
+        Relay0_state = LOW;
+      }
+      					  
+      stabilizer_tapping_state10_231_231();
+                                             
+      /*                    
+          Serial.println("Relay0");      
+          Serial.println(digitalRead(Relay0));      
+          Serial.println("Relay1");      
+          Serial.println(digitalRead(Relay1));      
+          Serial.println("Relay2");      
+          Serial.println(digitalRead(Relay2));      
+          Serial.println("Relay3");      
+          Serial.println(digitalRead(Relay3));      
+          Serial.println("Relay4");      
+          Serial.println(digitalRead(Relay4));      
+          Serial.println("Relay5");      
+          Serial.println(digitalRead(Relay5));      
+          Serial.println("Relay6");      
+          Serial.println(digitalRead(Relay6));      
+          Serial.println("Relay7");      
+          Serial.println(digitalRead(Relay7));      
+      */ 
+        delay(200);
+      }        
+  </tr>
+</table>  
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+      <details>
+        <summary>🖼️ Click for having image result of stabilizer_tapping_state10_231_231.ino </summary>
+         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/stabilizer_tapping_state10_231_231.jpg"  alt="Image of result">
+  </tr>
+</table>
+</br>
+
+
+
+* stabilizer_tapping_state11_131_215
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+        <details>
+        <summary>📑 Click for having code : stabilizer_tapping_state11_131_215.ino  </summary>
+        <p> Copy this code on arduino, save as the name is  stabilizer_tapping_state11_131_215.ino and upload + run </p>
         
         
   </tr>
@@ -1834,7 +1992,7 @@ WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE </br>
   <tr>
     <td>
       <details>
-        <summary>🖼️ Click for having image result of stabilizer_tapping_state3_231_231.ino </summary>
+        <summary>🖼️ Click for having image result of stabilizer_tapping_state11_131_215.ino </summary>
          <img src=""  alt="Image of result">
   </tr>
 </table>
