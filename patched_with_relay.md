@@ -564,7 +564,7 @@ WHEN LEF OF RELAY ZERO IS OFF -> STABILIZER IS INACTIVE </br>
     <td>
       <details>
         <summary>🖼️ Click for having image result of stabilizer_tapping_state1_94_231.ino </summary>
-         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/stabilizer_tapping_state_security.jpg"  alt="Image of result">
+         <img src="https://github.com/SitrakaResearchAndPOC/electricity_zero_down_time_haifa_udr/blob/main/PATCHED_WITH_RELAY/stabilizer_tapping_state1_94_231.jpg"  alt="Image of result">
   </tr>
 </table>
 </br>
