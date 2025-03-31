@@ -2609,6 +2609,77 @@ Choose this adress on the code
   </tr>
 </table>
 
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>
+        <details>
+        <summary>📑 Click for having code : stabilizer_tapping_v8  </summary>
+        <p> Copy this code on arduino, save as the name is  stabilizer_tapping_v8.ino and upload + run </p>
+        
+      
+  </tr>
+</table>  
+
+## TEST INTEGRATION
+For selection of LCD
+```
+#define ACTIVE_LCD 0 
+#define ACTIVE_LCD_OLED 1
+#define ACTIVE_LCD_1602 2
+
+// CHOOSE
+#define ACTIVE_LCD_OPTION ACTIVE_LCD_1602
+```
+
+For configuring sensor
+```
+float slope1 = 2.59;                // For adjusting the test calibration for involtage or outvoltage
+float slope2 = 2.60;                // For adjusting the test calibration for involtage or outvoltage
+```
+
+For configuring warm_up
+```
+unsigned long warmUpTime = 8000; // Time to wait for initialization of the voltage sensor to collect all data before RMS is 8 secondes
+```
+
+For configuring transitions of all states
+```
+// Minus is the calibration of voltage transition , 
+// no calibration, it will be 0
+// more high output, it will  be negatif as eg : -3
+// more low output, it will be positif as eg : +3
+#define MINIUS 0
+
+#define VOLTAGE_TRANSITION_1 100-MINIUS //first transition is near 90V 
+#define VOLTAGE_TRANSITION_2 110-MINIUS //second transition is near 105
+#define VOLTAGE_TRANSITION_3 124-MINIUS // third transition is near 115 //interesting
+#define VOLTAGE_TRANSITION_4 137-MINIUS // fourth transition is near 130 //The first modif 145
+#define VOLTAGE_TRANSITION_5 155-MINIUS // fifth transition is near 150
+#define VOLTAGE_TRANSITION_6 165-MINIUS // sixth transition is near 160
+#define VOLTAGE_TRANSITION_7 185-MINIUS // seventh transition is near 175
+#define VOLTAGE_TRANSITION_8 200-MINIUS // eigth transition is near 190
+#define VOLTAGE_TRANSITION_9 210-MINIUS // ninetransition is near 205
+#define VOLTAGE_TRANSITION_10 230-MINIUS // ninetransition is near 230
+#define VOLTAGE_TRANSITION_11 255-MINIUS // ninetransition is near 255
+```
+
+For configuring security voltage
+```
+// SECURITY VOLTAGE
+#define VOLTAGE_SECURITY_LOW 45
+#define VOLTAGE_SECURITY_HIGH VOLTAGE_TRANSITION_11+5
+```
+
+For configuring hysteresis
+```
+#define HYSTERESIS 2
+```
+
+
+
+
+
 # X - PIN TO KNOW
 * PIN OF EXTRA TRANSFORMATOR
 <table>
